@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar"
 import { Route, Routes } from "react-router-dom"
-import Home from "./components/Home"
-import InteractiveMaps from "./components/InteractiveMaps"
-import VirtualTour from "./components/VirtualTour"
-import Archive from "./components/Archive"
-import Events from "./components/Events"
+import Home from "./pages/Home"
+import InteractiveMaps from "./pages/InteractiveMaps"
+import VirtualTour from "./pages/VirtualTour"
+import Archive from "./pages/Archive"
+import Events from "./pages/Events"
 
 function App() {
   return (
