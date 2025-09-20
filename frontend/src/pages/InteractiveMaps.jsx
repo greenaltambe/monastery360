@@ -5,7 +5,7 @@ const InteractiveMaps = () => {
     <MapContainer
       center={[27.35, 88.39]}
       zoom={8}
-      style={{ height: "calc(100vh - 64px)", width: "100%", marginTop: "64px" }}
+      style={{ height: "100%", width: "100%" }}
       maxBounds={[
         [26.5, 87.9],
         [28.2, 88.9],
