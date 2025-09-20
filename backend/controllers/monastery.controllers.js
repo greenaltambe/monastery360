@@ -1,9 +1,11 @@
-import logger from "../utils/logger.js"
-import colors from "colors"
+import logger from "../utils/logger.js";
+import colors from "colors";
+import Monastery from "../models/monastery.model.js";
+import asyncHandler from "express-async-handler";
 
-const getAllMonasteries = (req, res) => {
-    logger.info(`${colors.magenta('getAllMonasteries')}`)
-    res.status(200).json({ message: 'getAllMonasteries' })
-}
+const getAllMonasteries = asyncHandler(async (req, res) => {
+  const monasteries = await Monastery.find();
+  res.status(200).json(monasteries);
+});
 
-export { getAllMonasteries }
+export { getAllMonasteries };

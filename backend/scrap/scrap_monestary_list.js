@@ -11,7 +11,11 @@ const urls = {
     "http://sikkimeccl.gov.in/History/Monasteries/South/SouthDistrictMonasteryList.aspx",
 };
 
-async function scrapeMonasteries(url) {
+function toTitleCase(str) {
+  return str.toLowerCase().replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+async function scrapeMonasteries(url, region) {
   const monasteries = [];
   try {
     const { data } = await axios.get(url);
@@ -20,7 +24,8 @@ async function scrapeMonasteries(url) {
     $("#MonasteryListTable tr").each((i, row) => {
       const link = $(row).find("a.HyperlinkMonastery");
 
-      const name = link.text().replace(/\s+/g, " ").trim();
+      const rawName = link.text().replace(/\s+/g, " ").trim();
+      const name = toTitleCase(rawName);
 
       const relativeUrl = link.attr("href");
       const fullUrl = relativeUrl ? new URL(relativeUrl, url).href : null;
@@ -28,8 +33,7 @@ async function scrapeMonasteries(url) {
       const year = $(row).find("td").last().text().replace(/\s+/g, " ").trim();
 
       if (name && year && fullUrl) {
-        console.log({ name, year, url: fullUrl });
-        monasteries.push({ name, year, url: fullUrl });
+        monasteries.push({ name, year, url: fullUrl, district: region });
       }
     });
   } catch (err) {
@@ -39,16 +43,23 @@ async function scrapeMonasteries(url) {
   return monasteries;
 }
 
-for (const [region, url] of Object.entries(urls)) {
-  const monasteries = await scrapeMonasteries(url);
+async function main() {
+  const allMonasteries = [];
 
-  console.log(monasteries);
-  console.log(monasteries.length);
+  for (const [region, url] of Object.entries(urls)) {
+    const monasteries = await scrapeMonasteries(url, region);
+    console.log(`${region}: ${monasteries.length} monasteries scraped`);
+    allMonasteries.push(...monasteries);
+  }
 
   fs.writeFileSync(
-    `monasteries_list/monasteries_${region}.json`,
-    JSON.stringify(monasteries, null, 2)
+    "monasteries_list/monasteries_all.json",
+    JSON.stringify(allMonasteries, null, 2)
+  );
+
+  console.log(
+    `Scraping completed. Total monasteries: ${allMonasteries.length}`
   );
 }
 
-console.log("Scraping completed");
+main();

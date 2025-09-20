@@ -1,0 +1,650 @@
+[
+  {
+    "name": "Old Rumtek Monastery",
+    "year": "1734 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/OldRumtek.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Kathog Dorjeden Monastery",
+    "year": "1840 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/DorjidenMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Enchey Monastery",
+    "year": "1840 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/EncheyMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Linkoed Monastery",
+    "year": "1840 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/LinkoedMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Rinak Monastery",
+    "year": "1841 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/RinakMonaster.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Simig Monastery",
+    "year": "1843 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/SimigMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Pathing Matsang Monastery",
+    "year": "1860 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/PathingMatsang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Lingdok Tsangkhar Monastery",
+    "year": "1862 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/LingdogTshangkhar.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Ray Mindu Katenling Monastery",
+    "year": "1873 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/RayMindu.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Pabyuk Monastery",
+    "year": "1875 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/PabyukMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Tsangek Monastery",
+    "year": "1888 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Tsangek.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Tsulakhang Monastery",
+    "year": "1898 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Tsuklakhang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Sang Monastery",
+    "year": "1912 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Sang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Samdong Mintokgang Monastery",
+    "year": "1913 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/SamdongMintokgang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Martam Namdzong",
+    "year": "1917 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/MartamNadzong.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Thumon Monastery",
+    "year": "1921 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Thumon.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Sumon Thubten Gatsalling Monastery",
+    "year": "1924 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Sumon.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Amba Mamring Monastery",
+    "year": "1929 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/AmbaMamring.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Choten Monastery",
+    "year": "1946 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/Choten.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Martam Tsangkhar Monastery",
+    "year": "1951 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/MartamTsangkhar.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Pandam \"Tashi Palden\" Monastery",
+    "year": "1955 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/TashiPalden.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Raloong Monastery",
+    "year": "1956 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/RaloongMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Radong Tensung Monastery",
+    "year": "1959 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/RadongTensung.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Sang-Ngor \"Ngor Gonpa\" Monastery",
+    "year": "1961 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/SangNgorMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Rumtek Dharma Chakra Centre",
+    "year": "1962 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/RumtekDharmaChakra.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Bakcham Monastery",
+    "year": "1966 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/BakchamMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Kagon Tshechhogling Monastery",
+    "year": "1977 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/KagonTshechhoglingMonastery.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Taktse Ani Gonpa \"Ugen Chokhorling\"",
+    "year": "1980 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/TaktseAni.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Tingkye Gonjang Monastery",
+    "year": "1981 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/TinkyeGonjang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Khatek Pema Choling Monastery",
+    "year": "1985 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/KhatekPema.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Dichen Choling Monastery",
+    "year": "1987 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/SicheyDechenCholing.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Taglung Domsumling Monastery",
+    "year": "1987 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/TaglungDomsumlingGonpa.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Dolepchen Boudha Sanskrit Monastery",
+    "year": "1991 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/DolepchenBoudha.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Singtam \"Karma Thuje Choling\" Monastery",
+    "year": "1992 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/SingtamGonpa.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Lingdum Zurmang Monastery",
+    "year": "1999 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/LingdumZurmang.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Burtuk Ugen Pemacholing Monastery",
+    "year": "2000 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/BurtukUgenPemaCholing.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Duchi Gyalton Monastery",
+    "year": "2002 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/DuchiGyatonGonpa.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Bongyong Ani Gonpa",
+    "year": "2005 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/East/BongyongAniGonpa.aspx",
+    "district": "East"
+  },
+  {
+    "name": "Dubde Monastery",
+    "year": "1647 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/DubdeMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Sang-Ngag Choling Monastery",
+    "year": "1649-1650 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/SangNgagCholing.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Pemayangtse Monastery",
+    "year": "1650-1651 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/PemaYangtse.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Tashiding Monastery",
+    "year": "1651 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/TashidingMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Silnon Monastery",
+    "year": "1716 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/SilnonMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Rinchenpung Monastery",
+    "year": "1730 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/RinchenpungMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Melli-Atsing Monastery",
+    "year": "1740 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/MelliAtsing.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Khachoedpalri Monastery",
+    "year": "1760 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/Khechopalri.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Lhuntse Monastery",
+    "year": "1850 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/Lhuntse.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Chakung Monastery",
+    "year": "1847 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/ChakhungMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Nubling Monastery",
+    "year": "1875 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/NublingMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Aden Wolung Monastery",
+    "year": "1913 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/AdenWalungMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Hungri Monastery",
+    "year": "1922 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/HungriMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Okhery Monastery",
+    "year": "1949 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/Okhery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Tashi Samboling Tamang Monastery",
+    "year": "1967 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/TashiSambaling.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Sri Badam Monastery",
+    "year": "1976 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/SriBadamMonastery.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Rinchen Choling Tamu Monastery",
+    "year": "1996 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/RinchenCholingTamu.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Dodak Tamu Monastery",
+    "year": "2005 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/West/DodakTamu.aspx",
+    "district": "West"
+  },
+  {
+    "name": "Phensang Monastery",
+    "year": "1721 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/PhensangMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Phodong Karma Tashi Chokhorling Monastery",
+    "year": "1734 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/PhodangMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Tsungthang Monastery",
+    "year": "1788 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/TsunthangMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Tholung Monastery",
+    "year": "1789 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/TholungMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Tingbung Monastery",
+    "year": "1843 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/TingBungMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Labrang Monastery",
+    "year": "1844 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/LabrangMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Lachung \"Samten Choling\" Monastery",
+    "year": "1850 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/LachungMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Ringyim “Rigdzin Tharlig” Monastery",
+    "year": "1852 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/RingyimMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Lingthem Gonpa “Chophel Dargyeling”",
+    "year": "1857 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/LingthemMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Lachen \"Ngodub Choling\" Monastery",
+    "year": "1858 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/LachenMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Sontam Tensung Monastery",
+    "year": "1884 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/SonamTensungMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Singchit Ngadag Monastery",
+    "year": "1890 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/SingChitNgadag.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Ship Kunzang Choling Monastery",
+    "year": "1900 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/SheepGyerMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Kabi \"Sanga Dargyeling\" Monastery",
+    "year": "1911 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/KabiMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Hee Gyathang Monastery",
+    "year": "1914 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/HeeGyathang.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Malam Monastery",
+    "year": "1928 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/MaalamMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Tareng Gonpa “Dargye Choling”",
+    "year": "1929 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/TarengMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Tsawang Choling Monastery",
+    "year": "1936 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/TsawangCholing.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Nage \"Ugen Sangdoling\" Monastery",
+    "year": "1937 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/NagaMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Shagyong Monastery",
+    "year": "1940 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/ShagyongMonastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Barphog \"Chhodub Dargyeling\" Monastery",
+    "year": "1957 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/Barphog%20Monastery.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Silem Phagyal “Tashi Dargyeling” Monastery",
+    "year": "1967 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/SilemPhagyal.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Lachen Thangu Monastery",
+    "year": "1947 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/LachenThangu.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Gor \"Rinchen Khando\" Monastery",
+    "year": "2002 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/North/GorRinchen.aspx",
+    "district": "North"
+  },
+  {
+    "name": "Namtse Nga-Dag Monastery",
+    "year": "1684 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/NamtseNgadagMonastery.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Doling Monastery",
+    "year": "1718 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/DolingGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Ralong \"Karma Rabtenling\" Monastery",
+    "year": "1730 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/RalongGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Yangang Gonpa “Tashi Palding Gon”",
+    "year": "1787 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/YangangGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Mangbro Monastery",
+    "year": "1790 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/MangBroGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Linge Phagyal Monastery",
+    "year": "1862 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/LingePhagyal.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Burmiok Wosel Choling Monastery",
+    "year": "1873 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/BermiokWoselCholing.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Ben \"Karma Choling\" Monastery",
+    "year": "1902 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/Ben.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Namthang Norbu Tsho-Ling Monastery",
+    "year": "1914 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/NamthangNorbCholing.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Malli Tashi Chodarling Monastery",
+    "year": "1915 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/MelliTashiChodarling.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Wok Pabong Monastery",
+    "year": "1915 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/WokPabongSamtenling.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Sangmo Sharchog Bephug Monastery",
+    "year": "1921 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/SangmoSharchog.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Parbing ‘Samten Choling’ Monastery",
+    "year": "1935 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/ParbingMonastery.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Tekling Dzokchen Monastery",
+    "year": "1936 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/TeklingGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Bumtar Namdroling Monastery",
+    "year": "1939 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/BumtarNamdoline.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Namtse Ahaley “Dechen Choling” Monastery",
+    "year": "1948 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/Ahaley.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Sorok Tamang Monastery",
+    "year": "1962 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/SorokTamangGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Serdup Choling Monastery",
+    "year": "1967 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/SerdupCholing.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Rabong Kunphenling Tsechu Monastery",
+    "year": "1972 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/RabongKunpheling.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Kewzing \"Tashi Gyephelling\" Monastery",
+    "year": "1974 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/KewzingGonpa.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Bon Monastery",
+    "year": "1980 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/Bon.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Yangang Changchub Tamu Monastery",
+    "year": "1982 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/YangangChangchubTamu.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Burmiok Norbugang Monastery",
+    "year": "1992 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/BurmiokNorbugang.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Ralong Palchen Choling Monastery",
+    "year": "1995 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/PalchenCholingMonastery.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Suiram Risung Monastary",
+    "year": "1995 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/SuiramRisung.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Namthang Nyima Choling Monastery",
+    "year": "1997 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/NamthangNymaCholing.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Gagyong Monastery",
+    "year": "2005 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/Gagyong.aspx",
+    "district": "South"
+  },
+  {
+    "name": "Rabong Monastery",
+    "year": "2006 A.D",
+    "url": "http://sikkimeccl.gov.in/History/Monasteries/South/RabongMonastery.aspx",
+    "district": "South"
+  }
+]
