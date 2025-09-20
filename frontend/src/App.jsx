@@ -10,15 +10,17 @@ import Layout from "./pages/Layout";
 function App() {
   return (
     <>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/virtualtour" element={<VirtualTour />} />
-          <Route path="/interactive-maps" element={<InteractiveMaps />} />
-          <Route path="/archive" element={<Archive />} />
-          <Route path="/events" element={<Events />} />
-        </Routes>
-      </Layout>
+      <div className="bg-gray-900">
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/virtualtour" element={<VirtualTour />} />
+            <Route path="/interactive-maps" element={<InteractiveMaps />} />
+            <Route path="/archive" element={<Archive />} />
+            <Route path="/events" element={<Events />} />
+          </Routes>
+        </Layout>
+      </div>
     </>
   );
 }
