@@ -6,6 +6,7 @@ import VirtualTour from "./pages/VirtualTour";
 import Archive from "./pages/Archive";
 import Events from "./pages/Events";
 import Layout from "./pages/Layout";
+import Monestary from "./pages/Monestary";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/interactive-maps" element={<InteractiveMaps />} />
             <Route path="/archive" element={<Archive />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/monastery/:monastery_id" element={<Monestary />} />
           </Routes>
         </Layout>
       </div>

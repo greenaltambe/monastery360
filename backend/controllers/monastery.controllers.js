@@ -21,4 +21,14 @@ const getAllMonasteries = asyncHandler(async (req, res) => {
   });
 });
 
-export { getAllMonasteries };
+const getMonasteryById = asyncHandler(async (req, res) => {
+  const monastery = await Monastery.findById(req.params.id);
+
+  if (!monastery) {
+    return res.status(404).json({ message: "Monastery not found" });
+  }
+
+  res.status(200).json(monastery);
+});
+
+export { getAllMonasteries, getMonasteryById };

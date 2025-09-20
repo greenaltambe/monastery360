@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { BackwardIcon, ForwardIcon } from "@heroicons/react/24/outline";
 import Loader from "../components/Loader";
+import Monestary from "./Monestary";
+import { Link } from "react-router-dom";
 
 // Main Archive component
 const Archive = () => {
@@ -62,28 +64,30 @@ const Archive = () => {
                   key={monastery._id}
                   className="bg-gradient-to-br from-amber-900/20 via-gray-800/40 to-gray-900/60 backdrop-blur-sm rounded-2xl shadow-2xl border border-amber-700/20 overflow-hidden transform transition-all duration-500 hover:scale-105 hover:border-amber-500/40 hover:shadow-amber-500/10 hover:shadow-2xl"
                 >
-                  {/* Monastery Image */}
-                  <div className="h-48 sm:h-56 w-full overflow-hidden">
-                    <img
-                      src={
-                        monastery.images[0]?.url ||
-                        "https://placehold.co/400x200"
-                      }
-                      alt={monastery.name}
-                      className="w-full h-full object-cover rounded-t-2xl"
-                      onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = "https://placehold.co/400x200";
-                      }}
-                    />
-                  </div>
-                  {/* Monastery Details */}
-                  <div className="p-4 sm:p-6 text-center">
-                    <h2 className="text-xl font-bold text-amber-50 mb-2">
-                      {monastery.name}
-                    </h2>
-                    {/* Add more details here if available, e.g., location, history */}
-                  </div>
+                  <Link to={`/monastery/${monastery._id}`}>
+                    {/* Monastery Image */}
+                    <div className="h-48 sm:h-56 w-full overflow-hidden">
+                      <img
+                        src={
+                          monastery.images[0]?.url ||
+                          "https://placehold.co/400x200"
+                        }
+                        alt={monastery.name}
+                        className="w-full h-full object-cover rounded-t-2xl"
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = "https://placehold.co/400x200";
+                        }}
+                      />
+                    </div>
+                    {/* Monastery Details */}
+                    <div className="p-4 sm:p-6 text-center">
+                      <h2 className="text-xl font-bold text-amber-50 mb-2">
+                        {monastery.name}
+                      </h2>
+                      {/* Add more details here if available, e.g., location, history */}
+                    </div>
+                  </Link>
                 </div>
               ))}
             </div>
