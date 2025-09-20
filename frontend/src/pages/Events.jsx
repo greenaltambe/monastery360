@@ -52,7 +52,7 @@ const Events = () => {
 
   return (
     <div className="mt-16 min-h-screen bg-yellow-50">
-      <div className="container mx-auto px-6 py-16">
+      <div className="container mx-auto px-6 py-12">
         
         {/* Header */}
         <h1 className="text-5xl font-bold text-center text-red-900 mb-14 tracking-wide">
