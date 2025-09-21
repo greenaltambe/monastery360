@@ -70,7 +70,6 @@ const Events = () => {
           </p>
         </div>
 
-        {/* Conditional Rendering based on data state */}
         {loading ? (
           <Loader />
         ) : error ? (

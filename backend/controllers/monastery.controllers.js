@@ -4,12 +4,23 @@ import asyncHandler from "express-async-handler";
 const getAllMonasteries = asyncHandler(async (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 10;
+  const search = req.query.search || "";
 
   const skip = (page - 1) * limit;
 
-  const totalMonasteries = await Monastery.countDocuments();
+  const filter = search
+    ? {
+        $or: [
+          { name: { $regex: search, $options: "i" } },
+          { district: { $regex: search, $options: "i" } },
+          { description: { $regex: search, $options: "i" } },
+        ],
+      }
+    : {};
 
-  const monasteries = await Monastery.find().skip(skip).limit(limit);
+  const totalMonasteries = await Monastery.countDocuments(filter);
+
+  const monasteries = await Monastery.find(filter).skip(skip).limit(limit);
 
   const totalPages = Math.ceil(totalMonasteries / limit);
 
