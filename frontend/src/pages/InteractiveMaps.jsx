@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { Link } from "react-router-dom";
+import Loader from "../components/Loader";
 
 // Fix for default marker icon not showing up
 // This is a common issue with react-leaflet and webpack
@@ -42,11 +43,7 @@ const InteractiveMaps = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center h-screen bg-gray-900 text-xl font-semibold text-gray-300">
-        Loading map data...
-      </div>
-    );
+    return <Loader />;
   }
 
   if (error) {
