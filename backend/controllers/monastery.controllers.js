@@ -31,4 +31,36 @@ const getMonasteryById = asyncHandler(async (req, res) => {
   res.status(200).json(monastery);
 });
 
-export { getAllMonasteries, getMonasteryById };
+const getMonasteriesWithLocation = asyncHandler(async (req, res) => {
+  const monasteries = await Monastery.find({
+    "location.latitude": { $exists: true, $ne: null },
+    "location.longitude": { $exists: true, $ne: null },
+  });
+  res.status(200).json({ message: "Monasteries with location", monasteries });
+});
+
+const updateMonastery = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const updatedData = req.body;
+
+  const monastery = await Monastery.findById(id);
+
+  if (!monastery) {
+    res.status(404);
+    throw new Error("Monastery not found");
+  }
+
+  const updatedMonastery = await Monastery.findByIdAndUpdate(id, updatedData, {
+    new: true,
+    runValidators: true,
+  });
+
+  res.status(200).json(updatedMonastery);
+});
+
+export {
+  getAllMonasteries,
+  getMonasteryById,
+  getMonasteriesWithLocation,
+  updateMonastery,
+};
