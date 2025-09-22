@@ -34,6 +34,10 @@ const monasterySchema = new mongoose.Schema({
       caption: { type: String, default: "" },
     },
   ],
+  virtualTourUrl: {
+    type: String, // field for the virtual tour URL
+    default: null,
+  },
   source: {
     type: String, // original monastery page URL
     required: true,
